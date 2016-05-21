@@ -1,0 +1,16 @@
+1. "/etc/issue" file stores the following info:
+    a) identifies the version of linux running on the system
+    b) The name of the system
+    c) The device that you're logging in on
+    
+2. A silly file called message of the day : "/etc/motd" also exists
+3. Which shell are you running: echo $0
+4. stty sane - this commands most of the terminal parametrs to their default values
+5. Deleting
+    a) word - ctrl - w
+    b) suspend a program - ctrl -z
+    c) deleting a line - ctrl - U or ctrl - x
+    d) abort an execution (These are term commands (termination))- ctrl - c or delete keys. If these don't work then use 
+        ctrl - \ (QUIT command)
+        another way to kill a program is to first suspend it by using - ctrl - z and then killing it using PID (ctrl - u)
+    e) kill - command is used to kill processes    
