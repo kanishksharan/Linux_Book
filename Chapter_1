@@ -14,3 +14,38 @@
         ctrl - \ (QUIT command)
         another way to kill a program is to first suspend it by using - ctrl - z and then killing it using PID (ctrl - u)
     e) kill - command is used to kill processes    
+6. Run a command with root privileges: su -c '<the entire command>'
+        you may do the same with "sudo -s" as well.
+        
+7. man commands:
+       1   Executable programs or shell commands
+       2   System calls (functions provided by the kernel)
+       3   Library calls (functions within program libraries)
+       4   Special files (usually found in /dev)
+       5   File formats and conventions eg /etc/passwd
+       6   Games
+       7   Miscellaneous (including macro packages and conventions), e.g. man(7), groff(7)
+       8   System administration commands (usually only for root)
+       9   Kernel routines [Non standard]
+      a) man 4 ls -- 4 will take you to file formats, as mentioned in the list above
+8. passwd :      The passwd utility is used to update user's authentication token(s)               
+9. When you do not know the exact command, you can use the "man -k <i want to know whatever> ". It is same as using 
+            apropos <whatever>
+10. "whatis <full word>" is same similar to man -k
+11. "info" is more detailed than "man"
+12. Try usinf "pinfo" it's more intuitive than "info"
+
+13. Display a list of utilities that compress files.
+        a) man -k compress files or [apropos compress files]
+14. Change shell to tcsh from bash:
+        a) bin/tcsh
+15. Device Files:
+        Under Linux and UNIX each and every hardware device treated as a file. 
+        A device file allows to accesses hardware devices so that end users do not need to get technical details about hardware.
+        
+        In short, a device file (also called as a special file) is an interface for a device driver that appears in a 
+        file system as if it were an ordinary file. This allows software to interact with the device driver using 
+        standard input/output system calls, which simplifies many tasks
+        
+        "/usr/share/man/man4"
+        
